@@ -1,0 +1,6 @@
+def listsum(list):
+ret=0
+for i in list:
+ret += i
+return ret
+print listsum([2,3,4])
