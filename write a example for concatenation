@@ -1,0 +1,25 @@
+concentation are 4 types.There are:-
+1..Using + operator 
+2.Using join() method 
+3.Using % operator 
+4. Using “,” 
+using + operator:-
+var1 = "Hello "
+var2 = "world"
+var3 = var1 + var2
+print(var3)
+using join() method:-
+var1 = "live"
+var2 = "for yourself" 
+print("".join([var1, var2]))
+var3 = " ".join([var1, var2]) 
+print(var3)
+using % operator:-
+var1 = "hello"
+var2 = "yoshna"
+print("% s % s" % (var1, var2))
+using ",":-
+var1 = "hello"
+var2 = "gym"
+var3 = "freak"
+print(var1, var2, var3)
