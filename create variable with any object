@@ -1,0 +1,7 @@
+Class bike:
+def_init_(self,color,make,model):
+    self.color = color
+    self.make = make
+    self.model = model
+while creating an object of the bike class, we will represent the name in this form:
+my_bike = bike('black','honda','shine')
