@@ -1,0 +1,23 @@
+ data type :
+Name = "some name"
+print(Name)
+print(Name.upper())
+using list data type:-
+L = [1,2,3]
+print(L)
+L.insert(3,5)
+L.insert(4,6)
+L.insert(5,7)
+print(L)
+L.pop(3)
+print(L)
+using dictionary data type:-
+d = {'mango':10,'banana':0,'apple':15,'orange':0,'pineapple':20}
+print(d)
+new = {'mango':15,'pineapple':15,'banana':0,'orange':0,'apple':15}
+d.update(new)
+print(d)
+for popping an item which is empty we will follow the syntax dict.pop(item) i.e
+d.pop('mango')
+d.pop('banana')
+print(d)
