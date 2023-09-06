@@ -1,0 +1,10 @@
+dir() tries to return a valid list of attributes of the object it is called upon and its syntax is dir(object)
+import random
+print("the contents of the random library are::")
+print(dir(random))
+help() :-
+syntax is help(object)
+program:
+info = help()
+print(info)
+and dir() function can also list out all the available attributes for a module,list,dictionary
