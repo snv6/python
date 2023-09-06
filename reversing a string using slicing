@@ -1,0 +1,2 @@
+a = "Myself Vamsi"[::-1]
+print(a)
